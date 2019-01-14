@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionManagerExample", "SelectionManagerExample\SelectionManagerExample.csproj", "{FA81FB42-A35C-4707-8A24-64438165968F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA81FB42-A35C-4707-8A24-64438165968F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA81FB42-A35C-4707-8A24-64438165968F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA81FB42-A35C-4707-8A24-64438165968F}.Debug|x64.ActiveCfg = Debug|x64
+		{FA81FB42-A35C-4707-8A24-64438165968F}.Debug|x64.Build.0 = Debug|x64
+		{FA81FB42-A35C-4707-8A24-64438165968F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA81FB42-A35C-4707-8A24-64438165968F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA81FB42-A35C-4707-8A24-64438165968F}.Release|x64.ActiveCfg = Release|x64
+		{FA81FB42-A35C-4707-8A24-64438165968F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

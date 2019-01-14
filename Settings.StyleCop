@@ -1,0 +1,75 @@
+<StyleCopSettings Version="105">
+  <GlobalSettings>
+    <CollectionProperty Name="RecognizedWords">
+      <Value>Bootstrapper</Value>
+      <Value>enum</Value>
+      <Value>Enum</Value>
+      <Value>GAF</Value>
+      <Value>Heidenhain</Value>
+      <Value>Intellisense</Value>
+      <Value>IOF</Value>
+      <Value>Mastercam</Value>
+      <Value>PostBlock</Value>
+      <Value>toolpath</Value>
+      <Value>ToolPath</Value>
+      <Value>toolpaths</Value>
+      <Value>ToolPaths</Value>
+      <Value>toolplane</Value>
+      <Value>Toolplane</Value>
+    </CollectionProperty>
+    <CollectionProperty Name="DeprecatedWords">
+      <Value>2d, 2D</Value>
+      <Value>3d, 3D</Value>
+      <Value>alpha-numeric, alphanumeric</Value>
+      <Value>dealer, Reseller</Value>
+      <Value>Dealer, Reseller</Value>
+      <Value>flyout, fly-out</Value>
+      <Value>gcode, G-code</Value>
+      <Value>grey, gray</Value>
+      <Value>mid-point, midpoint</Value>
+      <Value>multi-axis, multiaxis</Value>
+      <Value>multi-surface, multisurface</Value>
+      <Value>nethook, NET-Hook</Value>
+      <Value>popup, pop-up</Value>
+      <Value>reenter, re-enter</Value>
+      <Value>reseller, Reseller</Value>
+      <Value>resort, re-sort</Value>
+      <Value>set-up, setup</Value>
+      <Value>syncable, sync-able</Value>
+      <Value>Syncable, Sync-able</Value>
+      <Value>x-axis, X-axis</Value>
+      <Value>y-axis, Y-axis</Value>
+      <Value>z-axis, Z-axis</Value>
+    </CollectionProperty>
+  </GlobalSettings>
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">
+      <Rules>
+        <Rule Name="ElementDocumentationMustBeSpelledCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationHeadersMustNotContainBlankLines">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <StringProperty Name="CompanyName">CNC Software, Inc.</StringProperty>
+        <StringProperty Name="Copyright">Copyright (c) 2013 CNC Software, Inc.</StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.SpacingRules">
+      <Rules>
+        <Rule Name="DocumentationLinesMustBeginWithSingleSpace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>

@@ -1,0 +1,41 @@
+﻿###############################################################################
+# NETHook function table			
+###############################################################################
+#
+# Name		: SelectionManagerExample.ft
+# NETHook 	: SelectionManagerExample.dll
+# Date		: 08/04/2016
+# Author	: mick.george@mastercam.com
+# Notes		: 
+# Language	: C#
+# Version   : Mastercam 2017
+###############################################################################
+
+
+######################
+# ASSIGN A UNIQUE NAME
+######################
+APPLICATION "_API_SELECTIONMANAGER_CSHARP_EXAMPLE_"
+
+######################
+# NETHook LOCATION
+######################
+#
+FUNC_DLL   "CHOOKS\SelectionManagerExample.dll"
+RES_DLL    "SAME"
+dnRES_NAME "SelectionManagerExample.Resources.FunctionTable.Resource"
+CATEGORY   "API Examples"
+
+##############################################################################
+# Public functions here
+##############################################################################
+#
+# The main system entry point
+FUNCTION NET "Run"
+    dnSPNG "Run16"
+    dnLPNG "Run24"
+    dnTIP  "RunTip"
+END_FUNCTION
+
+#
+# EOF
